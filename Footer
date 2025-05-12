@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .footer {
+      background-color: #111;
+      color: #ddd;
+      padding: 40px 0 20px;
+      font-family: Segoe UI, sans-serif;
+    }
+
+    .footer-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .footer-section {
+      flex: 1 1 250px;
+      margin: 10px;
+      font-size: 14px;
+      line-height: 1.8;
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    .footer-section a {
+      color: #fff;
+      margin-bottom: 15px;
+    }
+
+    .footer-section a:hover {
+      color: #4CAF50;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      border-top: 1px solid #333;
+      margin-top: 20px;
+      padding-top: 15px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+<footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>sportzone</h3>
+        <p>به‌روز در اخبار و تحلیل‌های ورزشی</p>
+      </div>
+      <div class="footer-section">
+        <h4>لینک‌های مفید</h4>
+        <ul>
+          <li><a href="home">صفحه اصلی</a></li>
+          <li><a href="page 2">صفحه 2</a></li>
+          <li><a href="page 3">صفحه 3</a></li>
+          <li><a href="page 4">صفحه 4</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>تماس با ما</h4>
+        <p>ایمیل: info@sportzone.ir</p>
+        <p>تلفن: 021-12345678</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy;2025 sportzone. تمامی حقوق محفوظ است.</p>
+    </div>
+  </footer>
+</body>
+</html
